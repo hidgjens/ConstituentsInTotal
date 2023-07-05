@@ -313,7 +313,11 @@ def _test():
     print("Totals:", totals)
     print("True solution:", answer_indices)
 
-    find_unique_solutions(constituents=constituents, totals=totals)
+    find_unique_solutions(
+        constituents=constituents,
+        totals=totals,
+        show=True,
+    )
 
 
 def _main():
