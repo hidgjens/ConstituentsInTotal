@@ -1,0 +1,14 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true,
+        }
+    },
+    "python.formatting.provider": "none",
+    "isort.args": [
+        "--multi-line",
+        "7",
+        "--sl"
+    ],
+}
